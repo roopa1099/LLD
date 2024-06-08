@@ -1,0 +1,7 @@
+***********SOLID PRINCIPLE******************
+
+1. S -> Each class should have 1 resposibility, and should be modified because of one reason only.
+2. O -> Open for extension and closed for modification.
+3. L -> Liskov principle. If A is inherited by B, then B should extend all behaviour of A(without throiwng error) and should not narrow it down such that if I replace B with A or A with B, it should not break flow.
+4. I -> Interafce principle. Interface should only hold methods that can be inherited by all its subclass. It should not hold methods that cannot be implemented by all its subclass. If so, then divide it to another sub interface.
+5. D -> Dependency inversion. Class should depend on interface rather than concrete class such that when concrete class changes we do not have to make any change in other class.
