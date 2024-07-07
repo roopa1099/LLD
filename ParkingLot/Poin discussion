@@ -1,0 +1,19 @@
+
+## Features
+
+1. On arriving at entrance, generate a ticket
+2. In the ticket, user should be assigned a parking spot
+3. Cost can be hourly/min based
+4. Vehicle can be of different type and can have different fee.
+5. On reaching exit gate, total amount needs to be calculated and paid
+
+
+
+##### Objects
+
+Vehicle   done
+Ticket   done
+Entrance gate 
+Parking spot   done
+Exit gate
+Payment
